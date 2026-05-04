@@ -1,0 +1,58 @@
+{% assign nav = site.data.navigation.es %}
+
+<header class="ly-header">
+  <div class="wrapper ly-header-inner">
+    <a class="ly-brand" href="/">
+      <img src="{{ '/assets/logo.png' | relative_url }}" alt="LA Referencia | Lyrasis" class="ly-brand-logo">
+    </a>
+
+    <nav class="ly-nav" id="ly-main-nav">
+      <ul class="ly-nav-list">
+        {% for item in nav.main_nav %}
+          <li>
+            <a class="ly-nav-link" href="{{ item.href }}">
+              {{ item.label }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <button class="ly-hamburger" id="ly-hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="ly-main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var hamburger = document.getElementById('ly-hamburger');
+    var nav = document.getElementById('ly-main-nav');
+
+    if (hamburger && nav) {
+      hamburger.addEventListener('click', function () {
+        var isOpen = nav.classList.toggle('nav-open');
+        hamburger.classList.toggle('active', isOpen);
+        hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!nav.contains(event.target) && !hamburger.contains(event.target)) {
+          nav.classList.remove('nav-open');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+          nav.classList.remove('nav-open');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+  });
+</script>

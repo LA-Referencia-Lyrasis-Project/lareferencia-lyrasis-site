@@ -1,0 +1,16 @@
+<section class="ly-section ly-section--alt" id="acerca-de">
+  <div class="wrapper">
+    <div class="ly-about__grid">
+      <div class="ly-about__content">
+        <h2 class="ly-section-title">{{ site.data.home.es.sections[1].title }}</h2>
+        <div class="ly-section-divider"></div>
+        {% for para in site.data.home.es.sections[1].paragraphs %}
+          <p class="ly-about__text">{{ para }}</p>
+        {% endfor %}
+      </div>
+      <div class="ly-about__image">
+        <span class="ly-about__image-text">DSpace</span>
+      </div>
+    </div>
+  </div>
+</section>

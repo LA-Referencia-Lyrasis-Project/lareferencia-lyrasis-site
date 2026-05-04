@@ -1,0 +1,28 @@
+<section class="ly-section ly-section--white" id="resultados">
+  <div class="wrapper">
+    <div class="ly-results__grid">
+      <div class="ly-results-image">
+        <img
+          src="{{ '/assets/results-img.svg' | relative_url }}"
+          alt="{{ site.data.home.es.sections[4].image_alt | default: 'Resultados del proyecto' }}"
+          class="ly-results-img"
+          loading="lazy"
+        >
+      </div>
+      <div class="ly-results__content">
+        <h2 class="ly-section-title">{{ site.data.home.es.sections[4].title }}</h2>
+        <div class="ly-section-divider"></div>
+        {% for period in site.data.home.es.sections[4].periods %}
+          <div class="ly-results__period">
+            <h3 class="ly-results__period-title">{{ period.title }}</h3>
+            <ul class="ly-results__list">
+              {% for item in period.items %}
+                <li class="ly-results__item">{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

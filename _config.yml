@@ -1,0 +1,31 @@
+# Site metadata
+title: "Proyecto LA Referencia – Lyrasis"
+description: "Fortaleciendo la Adopción de DSpace en América Latina y España"
+baseurl: ""
+url: ""
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Theme
+theme: minima
+
+# Sass settings (suppress deprecation warnings and add load paths)
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
+  load_paths:
+    - _sass
+    - /home/juan-manitta/.gem/gems/minima-2.5.2/_sass
+
+# Exclude from processing
+exclude:
+  - .sass-cache
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock

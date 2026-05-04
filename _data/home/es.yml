@@ -1,0 +1,99 @@
+---
+sections:
+  - type: hero
+    title: "Proyecto LA Referencia – Lyrasis"
+    subtitle: "Fortaleciendo la infraestructura de Ciencia Abierta en América Latina"
+    cta:
+      label: "Conocer más"
+      href: "#acerca-de"
+
+  - type: about
+    id: acerca-de
+    title: "Acerca del Proyecto"
+    paragraphs:
+      - "El Proyecto LA Referencia – Lyrasis es una iniciativa conjunta diseñada para fortalecer la adopción, el uso y la actualización de DSpace en la comunidad de repositorios de América Latina y España."
+      - "A través de un enfoque integral, el proyecto busca proporcionar soporte técnico, documentación actualizada, capacitación especializada y desarrollo de herramientas para mejorar la gestión de repositorios digitales en la región."
+    image_alt: "DSpace logo"
+
+  - type: objectives
+    id: objetivos
+    title: "Objetivos del Proyecto"
+    items:
+      - icon: database
+        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\"/><path d=\"M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5\"/><path d=\"M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6\"/></svg>"
+        text: "Facilitar la transición y actualización de DSpace (en su última versión) en las instituciones participantes."
+      - icon: network
+        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"5\" r=\"2\"/><circle cx=\"5\" cy=\"19\" r=\"2\"/><circle cx=\"19\" cy=\"19\" r=\"2\"/><path d=\"M12 7v4M8.5 16.5L11 14M15.5 16.5L13 14\"/></svg>"
+        text: "Mejorar la interoperabilidad y el acceso abierto en los repositorios."
+      - icon: headset
+        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3\"/></svg>"
+        text: "Brindar soporte técnico y asistencia personalizada a la comunidad de usuarios."
+      - icon: document
+        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14,2 14,8 20,8\"/><line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\"/><line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\"/><polyline points=\"10,9 9,9 8,9\"/></svg>"
+        text: "Generar documentación en español y portugués adaptada a las necesidades locales."
+      - icon: training
+        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>"
+        text: "Implementar estrategias de capacitación para fortalecer el conocimiento técnico."
+      - icon: globe
+        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>"
+        text: "Fortalecer y comprometer a la comunidad global de DSpace, promoviendo la colaboración activa."
+      - icon: unlock
+        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 9.9-1\"/></svg>"
+        text: "Impulsar la infraestructura de la información científica y contribuir directamente al avance de la Ciencia Abierta."
+
+  - type: pillars
+    id: pilares
+    title: "Nuestros Cuatro Pilares"
+    items:
+      - icon: docs
+        title: "Documentación"
+        desc: "Creación y actualización de guías en español y portugués sobre instalación, configuración y mejores prácticas de DSpace."
+      - icon: support
+        title: "Soporte Técnico"
+        desc: "Implementación de un flujo de trabajo para asistencia a administradores de repositorios."
+      - icon: training
+        title: "Capacitación"
+        desc: "Desarrollo de sesiones de formación, webinars y Open Hours para la comunidad."
+      - icon: dev
+        title: "Desarrollo"
+        desc: "Adaptación e integración de mejoras en la plataforma DSpace según las necesidades de la región."
+
+  - type: results
+    id: resultados
+    title: "Resultados Esperados"
+    image_alt: "Ilustración de resultados del proyecto"
+    periods:
+      - title: "Primer Semestre de 2025"
+        items:
+          - "Actualización de la documentación técnica de DSpace a versiones más recientes."
+          - "Implementación de al menos 3 jornadas de capacitación regionales."
+          - "Publicación de al menos 5 guías prácticas actualizadas."
+          - "Incorporación de al menos 2 instituciones adicionales a la red."
+      - title: "A lo Largo de 2025"
+        items:
+          - "Fortalecimiento de la comunidad DSpace en la región con al menos 50 instituciones activas."
+          - "Desarrollo de al menos 2 herramientas o plugins adaptados a necesidades locales."
+          - "Establecimiento de una red de soporte técnico sostenible con cobertura multilingual."
+
+  - type: participate
+    id: participar
+    title: "¿Cómo participar?"
+    lead: "Si eres parte de una institución que utiliza DSpace o estás interesado en fortalecer el ecosistema de repositorios digitales en América Latina y España, te invitamos a unirte a esta iniciativa. ¡Contáctanos y sé parte del cambio!"
+    cards:
+      - icon: email
+        label: "Contacto"
+        button: "Contactarse"
+        href: "#"
+      - icon: link
+        label: "Formulario"
+        button: "Más información"
+        href: "#"
+      - icon: discord
+        label: "Comunidad de Discord"
+        button: "Unirse"
+        href: "#"
+
+  - type: team
+    id: equipo
+    title: "Nuestro Equipo"
+    content: "Próximamente"

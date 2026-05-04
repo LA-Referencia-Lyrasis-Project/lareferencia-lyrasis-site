@@ -1,0 +1,74 @@
+<section class="ly-section ly-section--white" id="objetivos">
+  <div class="wrapper">
+    <h2 class="ly-section-title">{{ site.data.home.es.sections[2].title }}</h2>
+    <div class="ly-section-divider"></div>
+
+    <div class="ly-carousel" id="objectives-carousel" aria-label="Objetivos del proyecto">
+      <button class="ly-carousel-btn ly-carousel-btn--prev" aria-label="Anterior" onclick="carouselNav('objectives-carousel', -1)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+
+      <div class="ly-carousel-track-wrap">
+        <div class="ly-carousel-track" id="objectives-carousel-track">
+          {% assign objectives = site.data.home.es.sections[2].items %}
+          {% for item in objectives %}
+          <div class="ly-carousel-item ly-objective-item">
+            <span class="ly-objective-icon" aria-hidden="true">
+              {{ item.icon_svg }}
+            </span>
+            <p class="ly-objective-text">{{ item.text }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <button class="ly-carousel-btn ly-carousel-btn--next" aria-label="Siguiente" onclick="carouselNav('objectives-carousel', 1)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+
+    <div class="ly-carousel-dots" id="objectives-carousel-dots"></div>
+  </div>
+
+  <script>
+    (function() {
+      const VISIBLE = window.innerWidth <= 768 ? 2 : 4;
+      let current = 0;
+      const track = document.getElementById('objectives-carousel-track');
+      const dotsContainer = document.getElementById('objectives-carousel-dots');
+      const items = track ? Array.from(track.children) : [];
+      const total = items.length;
+
+      function getVisible() { return window.innerWidth <= 768 ? 2 : 4; }
+
+      function renderDots() {
+        if (!dotsContainer) return;
+        dotsContainer.innerHTML = '';
+        const p = Math.ceil(total / getVisible());
+        for (let i = 0; i < p; i++) {
+          const d = document.createElement('button');
+          d.className = 'ly-carousel-dot' + (i === current ? ' active' : '');
+          d.setAttribute('aria-label', 'Página ' + (i+1));
+          d.onclick = () => goTo(i);
+          dotsContainer.appendChild(d);
+        }
+      }
+
+      function goTo(page) {
+        const vis = getVisible();
+        const maxPage = Math.ceil(total / vis) - 1;
+        current = Math.max(0, Math.min(page, maxPage));
+        const itemWidth = track.parentElement.offsetWidth / vis;
+        track.style.transform = 'translateX(-' + (current * vis * itemWidth) + 'px)';
+        renderDots();
+      }
+
+      window.carouselNav = function(id, dir) {
+        if (id === 'objectives-carousel') goTo(current + dir);
+      };
+
+      window.addEventListener('resize', () => goTo(0));
+      renderDots();
+    })();
+  </script>
+</section>
