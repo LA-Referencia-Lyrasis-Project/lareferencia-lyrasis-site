@@ -1,0 +1,31 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<section class="ly-section ly-section--white">
+  <div class="wrapper">
+    <h1 class="ly-section-title">Blog</h1>
+    <div class="ly-section-divider"></div>
+
+    {% if site.posts.size > 0 %}
+    <div class="ly-blog__grid">
+      {% for post in site.posts %}
+      <article class="ly-blog-card">
+        <p class="ly-blog-card__meta">{{ post.date | date: "%-d de %B de %Y" }}</p>
+        <h2 class="ly-blog-card__title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        {% if post.subtitle %}
+        <p class="ly-blog-card__subtitle">{{ post.subtitle }}</p>
+        {% endif %}
+        <p class="ly-blog-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}...</p>
+        <a href="{{ post.url | relative_url }}" class="ly-blog-card__link">Leer más →</a>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="ly-blog-empty">No hay entradas publicadas aún.</p>
+    {% endif %}
+  </div>
+</section>

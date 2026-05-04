@@ -2,6 +2,36 @@
   <div class="wrapper">
     <h2 class="ly-section-title">{{ site.data.home.es.sections[6].title }}</h2>
     <div class="ly-section-divider"></div>
-    <p class="ly-team__content">{{ site.data.home.es.sections[6].content }}</p>
+    <p class="ly-team-subtitle">Conocé a las personas que hacen posible el Proyecto LA Referencia – Lyrasis, trabajando para fortalecer la adopción de DSpace en América Latina y España.</p>
+
+    <div class="ly-team__grid">
+      {% for member in site.data.home.es.sections[6].members %}
+      <div class="ly-team-card">
+        <div class="ly-team-avatar">
+          <div class="ly-team-avatar-fallback">
+            {{ member.name | split: ' ' | first | slice: 0 }}{{ member.name | split: ' ' | last | slice: 0 }}
+          </div>
+          <img
+            src="{{ '/assets/team/' | append: member.photo | append: '.jpg' | relative_url }}"
+            alt="{{ member.name }}"
+            class="ly-team-avatar-img"
+            loading="lazy"
+            onerror="this.style.display='none'"
+          >
+          <span class="ly-team-badge">{{ member.country }}</span>
+        </div>
+        <p class="ly-team-name">{{ member.name }}</p>
+        <p class="ly-team-role">{{ member.role }}</p>
+        <p class="ly-team-bio">{{ member.bio }}</p>
+        <button class="ly-team-bio-toggle" aria-expanded="false" onclick="
+          var bio = this.previousElementSibling;
+          var expanded = this.getAttribute('aria-expanded') === 'true';
+          bio.classList.toggle('is-expanded', !expanded);
+          this.setAttribute('aria-expanded', !expanded);
+          this.textContent = expanded ? 'Leer más ↓' : 'Leer menos ↑';
+        ">Leer más ↓</button>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

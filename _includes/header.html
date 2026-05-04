@@ -2,7 +2,7 @@
 
 <header class="ly-header">
   <div class="wrapper ly-header-inner">
-    <a class="ly-brand" href="/">
+    <a class="ly-brand" href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/logo.png' | relative_url }}" alt="LA Referencia | Lyrasis" class="ly-brand-logo">
     </a>
 
@@ -15,6 +15,24 @@
             </a>
           </li>
         {% endfor %}
+
+        <!-- Language selector -->
+        <li class="ly-lang-item">
+          <button class="ly-lang-btn" id="ly-lang-btn" aria-expanded="false" aria-haspopup="true" aria-label="Seleccionar idioma">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12" aria-hidden="true" class="ly-lang-caret">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <ul class="ly-lang-dropdown" id="ly-lang-dropdown" role="menu">
+            <li role="none"><a href="#" class="ly-lang-option is-active" role="menuitem" hreflang="es">🇪🇸 Español</a></li>
+            <li role="none"><a href="#" class="ly-lang-option" role="menuitem" hreflang="en">🇺🇸 English</a></li>
+            <li role="none"><a href="#" class="ly-lang-option" role="menuitem" hreflang="pt">🇧🇷 Português</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
 
@@ -30,29 +48,45 @@
   document.addEventListener('DOMContentLoaded', function () {
     var hamburger = document.getElementById('ly-hamburger');
     var nav = document.getElementById('ly-main-nav');
+    var langBtn = document.getElementById('ly-lang-btn');
+    var langDropdown = document.getElementById('ly-lang-dropdown');
 
+    // Hamburger
     if (hamburger && nav) {
       hamburger.addEventListener('click', function () {
         var isOpen = nav.classList.toggle('nav-open');
         hamburger.classList.toggle('active', isOpen);
         hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       });
+    }
 
-      document.addEventListener('click', function (event) {
-        if (!nav.contains(event.target) && !hamburger.contains(event.target)) {
-          nav.classList.remove('nav-open');
-          hamburger.classList.remove('active');
-          hamburger.setAttribute('aria-expanded', 'false');
-        }
-      });
-
-      document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-          nav.classList.remove('nav-open');
-          hamburger.classList.remove('active');
-          hamburger.setAttribute('aria-expanded', 'false');
-        }
+    // Language dropdown
+    if (langBtn && langDropdown) {
+      langBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var isOpen = langDropdown.classList.toggle('is-open');
+        langBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       });
     }
+
+    // Close on outside click or Escape
+    document.addEventListener('click', function (e) {
+      if (nav && !nav.contains(e.target) && hamburger && !hamburger.contains(e.target)) {
+        nav.classList.remove('nav-open');
+        hamburger.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
+      if (langDropdown && !langDropdown.contains(e.target) && langBtn && !langBtn.contains(e.target)) {
+        langDropdown.classList.remove('is-open');
+        langBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        if (nav) { nav.classList.remove('nav-open'); hamburger.classList.remove('active'); hamburger.setAttribute('aria-expanded', 'false'); }
+        if (langDropdown) { langDropdown.classList.remove('is-open'); langBtn.setAttribute('aria-expanded', 'false'); }
+      }
+    });
   });
 </script>

@@ -177,6 +177,95 @@ img {
   background: var(--background-light);
 }
 
+/* === Language selector === */
+.ly-lang-item {
+  position: relative;
+  list-style: none;
+  margin-left: 0.25rem;
+}
+
+.ly-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  color: var(--text-color);
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+.ly-lang-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.ly-lang-caret {
+  transition: transform 0.2s ease;
+}
+
+.ly-lang-btn[aria-expanded="true"] .ly-lang-caret {
+  transform: rotate(180deg);
+}
+
+.ly-lang-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 150px;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  padding: 0.4rem 0;
+  list-style: none;
+  margin: 0;
+  z-index: 200;
+}
+
+.ly-lang-dropdown.is-open {
+  display: block;
+}
+
+.ly-lang-option {
+  display: block;
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-color);
+  transition: background 0.15s ease;
+  white-space: nowrap;
+}
+
+.ly-lang-option:hover {
+  background: var(--background-light);
+  color: var(--primary-color);
+}
+
+.ly-lang-option.is-active {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* === Page hero (subpages) === */
+.ly-page-intro {
+  padding: 2.5rem var(--wrapper-gutter) 0;
+  text-align: center;
+}
+
+.ly-page-hero-desc {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+  color: var(--text-light);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
 .ly-hamburger {
   display: none;
   flex-direction: column;
@@ -205,7 +294,7 @@ img {
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   display: flex;
   align-items: center;
-  padding: 6rem 0 5rem;
+  // padding: 6rem 0 5rem;
 }
 
 .ly-hero-inner {
@@ -313,6 +402,10 @@ img {
   color: var(--primary-color);
   text-align: center;
   margin-bottom: 0.5rem;
+}
+
+.ly-section-title--sm {
+  font-size: 1.4rem;
 }
 
 .ly-section-subtitle {
@@ -749,11 +842,145 @@ img {
 }
 
 /* === Team Section === */
-.ly-team__content {
+.ly-team-subtitle {
   text-align: center;
-  font-size: 1.1rem;
+  max-width: 620px;
+  margin: 0.75rem auto 0;
   color: var(--text-light);
-  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.ly-team__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.ly-team-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 1.75rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ly-team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.ly-team-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  margin-bottom: 0.1rem;
+}
+
+.ly-team-avatar-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  z-index: 1;
+}
+
+.ly-team-avatar-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.ly-team-badge {
+  position: absolute;
+  bottom: 0;
+  right: -4px;
+  background: var(--accent-color);
+  color: #3b3a3c;
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 2px 5px;
+  border-radius: 999px;
+  z-index: 3;
+  line-height: 1.4;
+}
+
+.ly-team-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-color);
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.ly-team-role {
+  color: var(--color-teal-bright);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.ly-team-bio {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.ly-team-bio.is-expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.ly-team-bio-toggle {
+  background: none;
+  border: none;
+  color: var(--color-teal-bright);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.4rem 0;
+  margin-top: 0.25rem;
+  font-family: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.ly-team-bio-toggle:hover {
+  opacity: 0.75;
+}
+
+@media (max-width: 1024px) {
+  .ly-team__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ly-team__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* === Responsive === */
@@ -847,6 +1074,140 @@ img {
     text-align: center;
   }
 }
+/* ============================================================
+   BLOG
+   ============================================================ */
+.ly-blog__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.ly-blog-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ly-blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.ly-blog-card__meta {
+  font-size: 0.78rem;
+  color: var(--text-light);
+  margin: 0;
+}
+
+.ly-blog-card__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.ly-blog-card__title a {
+  color: var(--primary-color);
+}
+
+.ly-blog-card__subtitle {
+  font-size: 0.88rem;
+  color: var(--text-light);
+  margin: 0;
+  font-style: italic;
+}
+
+.ly-blog-card__excerpt {
+  font-size: 0.88rem;
+  color: var(--text-light);
+  line-height: 1.55;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.ly-blog-card__link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-teal-bright) !important;
+  margin-top: 0.5rem;
+  align-self: flex-start;
+}
+
+.ly-blog-empty {
+  color: var(--text-light);
+  text-align: center;
+  padding: 3rem 0;
+}
+
+/* Post layout */
+.ly-post {
+  padding: 4rem var(--wrapper-gutter);
+  max-width: 780px;
+}
+
+.ly-post-back {
+  display: inline-block;
+  color: var(--color-teal-bright) !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.ly-post-header {
+  margin-bottom: 2.5rem;
+}
+
+.ly-post-title {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.ly-post-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.ly-post-meta {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.ly-post-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.ly-post-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  color: var(--primary-color);
+}
+
+@media (max-width: 1024px) {
+  .ly-blog__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ly-blog__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ============================================================
    GO TO TOP BUTTON
    ============================================================ */

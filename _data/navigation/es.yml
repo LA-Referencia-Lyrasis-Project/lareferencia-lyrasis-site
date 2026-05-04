@@ -15,8 +15,8 @@ main_nav:
     href: "#participar"
     type: anchor
   - label: Equipo
-    href: "#equipo"
-    type: anchor
+    href: /equipo/
+    type: subpage
   - label: Blog
     href: /blog/
     type: subpage
