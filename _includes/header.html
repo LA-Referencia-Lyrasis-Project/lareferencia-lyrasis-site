@@ -10,7 +10,7 @@
       <ul class="ly-nav-list">
         {% for item in nav.main_nav %}
           <li>
-            <a class="ly-nav-link" href="{{ item.href }}">
+            <a class="ly-nav-link" href="{{ item.href | relative_url }}">
               {{ item.label }}
             </a>
           </li>
