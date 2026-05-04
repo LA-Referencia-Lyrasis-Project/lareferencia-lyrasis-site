@@ -10,7 +10,11 @@
       <ul class="ly-nav-list">
         {% for item in nav.main_nav %}
           <li>
-            <a class="ly-nav-link" href="{{ item.href | relative_url }}">
+            {% if item.type == 'subpage' %}
+              <a class="ly-nav-link" href="{{ item.href | prepend: site.baseurl }}">
+            {% else %}
+              <a class="ly-nav-link" href="{{ item.href }}">
+            {% endif %}
               {{ item.label }}
             </a>
           </li>
