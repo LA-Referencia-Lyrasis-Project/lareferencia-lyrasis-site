@@ -1,0 +1,10 @@
+url: "https://la-referencia-lyrasis-project.github.io"
+baseurl: "/lareferencia-lyrasis-site"
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div

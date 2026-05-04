@@ -19,9 +19,6 @@ sass:
     - global-builtin
     - color-functions
     - slash-div
-  load_paths:
-    - _sass
-    - /home/juan-manitta/.gem/gems/minima-2.5.2/_sass
 
 # Exclude from processing
 exclude:
