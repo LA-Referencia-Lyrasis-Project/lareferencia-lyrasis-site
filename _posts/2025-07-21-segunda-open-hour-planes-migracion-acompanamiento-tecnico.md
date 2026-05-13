@@ -23,6 +23,8 @@ Durante la sesión se abordaron temas como:
 
 La sesión incluyó también la presentación de materiales disponibles para las instituciones que participan en los ciclos de intervención del proyecto: bitácoras, checklists, cronogramas y documentación técnica traducida. Estos recursos están disponibles de forma abierta en el sitio del proyecto.
 
+🧩 Si estás considerando migrar tu repositorio a una versión más reciente de DSpace, esta sesión es un excelente punto de partida para entender el proceso técnico y sumarte a la comunidad de práctica que estamos formando en América Latina.
+
 ## Recursos y contacto
 
 🧩 Si estás considerando migrar tu repositorio a una versión más reciente de DSpace, esta sesión es un excelente punto de partida para entender el proceso técnico y sumarte a la comunidad de práctica que estamos formando en América Latina.

@@ -14,13 +14,13 @@ En esta sesión, Juan Manita (Desarrollador experto en Angular y miembro del equ
 
 Durante el webinar se abordaron los siguientes puntos clave:
 
-- **Estructura de DSpace Angular**
-- **Migración Vs. Actualización**
-- **Personalización de Componentes**
-- **Personalización de Estilos (Branding)**
-- **Traducciones**
-- **Buenas Prácticas y Troubleshooting**
-- **Cambio a componentes Standalone**
+- **Estructura de DSpace Angular.**
+- **Migración Vs. Actualización.**
+- **Personalización de Componentes.**
+- **Personalización de Estilos (Branding).**
+- **Traducciones.**
+- **Buenas Prácticas y Troubleshooting.**
+- **Cambio a componentes Standalone.**
 
 La sesión incluyó una demostración teórica de la estructura de archivos, ejemplos de código y capturas de pantalla, además de ejemplos prácticos de repositorios personalizados (como CONARE). También se brindó espacio para una ronda de preguntas y respuestas y se ofreció interpretación simultánea para los participantes.
 

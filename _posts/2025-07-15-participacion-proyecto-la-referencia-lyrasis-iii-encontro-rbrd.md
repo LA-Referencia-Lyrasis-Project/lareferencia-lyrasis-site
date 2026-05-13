@@ -7,7 +7,6 @@ categories: [eventos]
 ---
 
 📍 **Centro Brasileiro de Pesquisas Físicas (CBPF), Río de Janeiro**
-📍 **Centro Brasileiro de Pesquisas Físicas (CBPF), Río de Janeiro**
 
 🗓 **3 y 4 de julio de 2025**
 
