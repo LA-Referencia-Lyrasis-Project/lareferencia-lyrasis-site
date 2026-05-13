@@ -2,7 +2,7 @@
 layout: post
 title: "Sexta Open Hour: Más allá del upgrade, experiencias de migración a DSpace Angular"
 subtitle: "76 profesionales compartieron estrategias y lecciones de migración en nuestra sesión de diciembre"
-date: 2025-12-12
+date: 2025-11-25
 categories: [open-hours]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Informe 2025 del Proyecto LA Referencia–Lyrasis: resultados y hoja de ruta 2026"
 subtitle: "Un año de avances en documentación, soporte y comunidad DSpace en América Latina"
-date: 2026-03-01
+date: 2026-01-07
 categories: [informes]
 ---
 

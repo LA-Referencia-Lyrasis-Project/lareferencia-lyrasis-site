@@ -2,7 +2,7 @@
 layout: post
 title: "Caso de Éxito de Migración DSpace (2026) – Universidad Católica del Maule, Chile"
 subtitle: "Cómo la UCM unificó dos repositorios y migró exitosamente a DSpace 8.1"
-date: 2026-04-15
+date: 2026-04-17
 categories: [casos-de-exito]
 ---
 
