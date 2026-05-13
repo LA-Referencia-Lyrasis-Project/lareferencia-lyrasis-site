@@ -20,25 +20,25 @@ sections:
     title: "Objetivos del Proyecto"
     items:
       - icon: database
-        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\"/><path d=\"M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5\"/><path d=\"M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6\"/></svg>"
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6"/></svg>'
         text: "Facilitar la transición y actualización de DSpace (en su última versión) en las instituciones participantes."
       - icon: network
-        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"5\" r=\"2\"/><circle cx=\"5\" cy=\"19\" r=\"2\"/><circle cx=\"19\" cy=\"19\" r=\"2\"/><path d=\"M12 7v4M8.5 16.5L11 14M15.5 16.5L13 14\"/></svg>"
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v4M8.5 16.5L11 14M15.5 16.5L13 14"/></svg>'
         text: "Mejorar la interoperabilidad y el acceso abierto en los repositorios."
       - icon: headset
-        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3\"/></svg>"
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>'
         text: "Brindar soporte técnico y asistencia personalizada a la comunidad de usuarios."
       - icon: document
-        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14,2 14,8 20,8\"/><line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\"/><line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\"/><polyline points=\"10,9 9,9 8,9\"/></svg>"
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>'
         text: "Generar documentación en español y portugués adaptada a las necesidades locales."
       - icon: training
-        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>"
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
         text: "Implementar estrategias de capacitación para fortalecer el conocimiento técnico."
       - icon: globe
-        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>"
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>'
         text: "Fortalecer y comprometer a la comunidad global de DSpace, promoviendo la colaboración activa."
       - icon: unlock
-        icon_svg: "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 9.9-1\"/></svg>"
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>'
         text: "Impulsar la infraestructura de la información científica y contribuir directamente al avance de la Ciencia Abierta."
 
   - type: pillars
@@ -47,33 +47,27 @@ sections:
     items:
       - icon: docs
         title: "Documentación"
+        href: "https://wiki.lyrasis.org/spaces/DSDOC9xes/pages/414712008/Introducci%C3%B3n"
         desc: "Creación y actualización de guías en español y portugués sobre instalación, configuración y mejores prácticas de DSpace."
       - icon: support
         title: "Soporte Técnico"
+        href: "https://soporte-dspace.lareferencia.info/es/home"
         desc: "Implementación de un flujo de trabajo para asistencia a administradores de repositorios."
       - icon: training
-        title: "Capacitación"
+        title: "Comunidad y Capacitación"
+        href: "https://youtube.com/playlist?list=PL2j1F3_xIyw6NB1WhjbmnW9VOCBDjZ8nV&si=MSOs08WWRTrqFEU_"
         desc: "Desarrollo de sesiones de formación, webinars y Open Hours para la comunidad."
       - icon: dev
         title: "Desarrollo"
+        href: "#"
         desc: "Adaptación e integración de mejoras en la plataforma DSpace según las necesidades de la región."
 
   - type: results
     id: resultados
-    title: "Resultados Esperados"
+    title: "Repositorio"
+    cta_label: "Más información"
+    cta_href: "https://dspace-prd.lareferencia.info/home"
     image_alt: "Ilustración de resultados del proyecto"
-    periods:
-      - title: "Primer Semestre de 2025"
-        items:
-          - "Actualización de la documentación técnica de DSpace a versiones más recientes."
-          - "Implementación de al menos 3 jornadas de capacitación regionales."
-          - "Publicación de al menos 5 guías prácticas actualizadas."
-          - "Incorporación de al menos 2 instituciones adicionales a la red."
-      - title: "A lo Largo de 2025"
-        items:
-          - "Fortalecimiento de la comunidad DSpace en la región con al menos 50 instituciones activas."
-          - "Desarrollo de al menos 2 herramientas o plugins adaptados a necesidades locales."
-          - "Establecimiento de una red de soporte técnico sostenible con cobertura multilingual."
 
   - type: participate
     id: participar
@@ -83,15 +77,19 @@ sections:
       - icon: email
         label: "Contacto"
         button: "Contactarse"
-        href: "#"
+        href: "mailto:lareferencia@lareferencia.info?subject=Quiero%20informaci%C3%B3n%20Proyecto%20LA%20Referencia%20-%20Lyrasis"
       - icon: link
         label: "Formulario"
         button: "Más información"
-        href: "#"
+        href: "https://docs.google.com/forms/d/e/1FAIpQLSdxOi8P07uPoPdEYtzAFN3di_OMHrxKq-Krg-06Ici_flcwDg/viewform"
       - icon: discord
         label: "Comunidad de Discord"
         button: "Unirse"
-        href: "#"
+        href: "https://discord.com/invite/GQzvHREzNy"
+      - icon: support
+        label: "Soporte técnico"
+        button: "Más información"
+        href: "https://soporte-dspace.lareferencia.info/es/home"
 
   - type: team
     id: equipo
@@ -112,16 +110,6 @@ sections:
         role: "Especialista en Documentación"
         bio: "Ingeniero de Sistemas, Maestría en Gobierno de TI (U. del Norte, Colombia). 15 años en el ámbito universitario, lidera la gestión tecnológica del repositorio institucional de la Universidad del Norte. Especialista en traducción y adaptación al español de la documentación oficial de DSpace."
         photo: "hector-ulloque"
-      - name: "Donny Gil Pineda"
-        country: "PER"
-        role: "Especialista Técnico — Infraestructura"
-        bio: "Ingeniero de Sistemas con más de 11 años de experiencia en gestión TI, análisis de sistemas y administración de infraestructura. Especialista en bases de datos y desarrollo de software. Parte del equipo técnico de LA Referencia desde 2025, colabora en la atención a los 12 nodos nacionales."
-        photo: "donny-gil"
-      - name: "Zaira Lagunas Ledesma"
-        country: "MEX"
-        role: "Especialista en Capacitación"
-        bio: "Doctora en Bibliotecología (UNAM). Amplia experiencia en capacitación en ciencia abierta y gestión de repositorios DSpace. Especialista en acompañamiento técnico a instituciones en migración, actualización y personalización de repositorios institucionales."
-        photo: "zaira-lagunas"
       - name: "Jesiel Viana"
         country: "BRA"
         role: "Especialista Técnico — Desarrollo de Software"
@@ -137,3 +125,13 @@ sections:
         role: "Desarrollador Frontend"
         bio: "Desarrollador frontend especializado en modernización de plataformas web e interfaces dinámicas. Experiencia en JavaScript/TypeScript, React, Angular y Tailwind. Desarrolla componentes reutilizables e integra flujos frontend-backend en el Proyecto LA Referencia – Lyrasis."
         photo: "juan-manitta"
+      - name: "Agustín Alfieri"
+        country: "ARG"
+        role: "Especialista en Soporte"
+        bio: "Especialista en soporte técnico y atención a instituciones. [Descripción pendiente]"
+        photo: "agustin-alfieri"
+      - name: "Gerardo Flores"
+        country: "MEX"
+        role: "Especialista en QA"
+        bio: "Especialista en control de calidad y aseguramiento de calidad del software. [Descripción pendiente]"
+        photo: "gerardo-flores"

@@ -32,7 +32,13 @@
             {% endcase %}
           </div>
           <div class="ly-pillar-body">
-            <h3 class="ly-pillar-title">{{ item.title }}</h3>
+            <h3 class="ly-pillar-title">
+              {% if item.href and item.href != '#' %}
+                <a href="{{ item.href }}" target="_blank" rel="noopener">{{ item.title }}</a>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </h3>
             <p class="ly-pillar-desc">{{ item.desc }}</p>
           </div>
         </div>

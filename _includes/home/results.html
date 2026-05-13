@@ -4,24 +4,17 @@
       <div class="ly-results-image">
         <img
           src="{{ '/assets/results-img.svg' | relative_url }}"
-          alt="{{ site.data.home.es.sections[4].image_alt | default: 'Resultados del proyecto' }}"
+          alt="{{ site.data.home.es.sections[4].image_alt }}"
           class="ly-results-img"
           loading="lazy"
         >
       </div>
       <div class="ly-results__content">
-        <h2 class="ly-section-title">{{ site.data.home.es.sections[4].title }}</h2>
+        <h2 class="ly-section-title ly-results__title">{{ site.data.home.es.sections[4].title }}</h2>
         <div class="ly-section-divider"></div>
-        {% for period in site.data.home.es.sections[4].periods %}
-          <div class="ly-results__period">
-            <h3 class="ly-results__period-title">{{ period.title }}</h3>
-            <ul class="ly-results__list">
-              {% for item in period.items %}
-                <li class="ly-results__item">{{ item }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endfor %}
+        <a href="{{ site.data.home.es.sections[4].cta_href }}" class="ly-btn ly-btn-solid" target="_blank" rel="noopener">
+          {{ site.data.home.es.sections[4].cta_label }}
+        </a>
       </div>
     </div>
   </div>

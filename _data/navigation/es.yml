@@ -8,7 +8,7 @@ main_nav:
   - label: Pilares
     href: "#pilares"
     type: anchor
-  - label: Resultados
+  - label: Repositorio
     href: "#resultados"
     type: anchor
   - label: Participar
@@ -22,7 +22,7 @@ main_nav:
     type: subpage
 
 footer:
-  legal_text: "Contenido bajo licencia CC BY 4.0 Internacional"
+  legal_text: "A menos que se indique lo contrario, todos los materiales producidos por LA Referencia tienen una licencia CC BY 4.0 Internacional"
   social:
     - label: Facebook
       href: "https://www.facebook.com/LAReferenciaAA"
@@ -37,5 +37,5 @@ footer:
       href: "https://www.youtube.com/user/RepositoriosLA"
       icon: youtube
     - label: WhatsApp
-      href: "https://wa.me/..."
+      href: "https://www.whatsapp.com/channel/0029VaEugWeCsU9VgZXXzP26"
       icon: whatsapp
