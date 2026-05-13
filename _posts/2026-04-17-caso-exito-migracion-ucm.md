@@ -10,11 +10,11 @@ Como parte del Pilar III (Comunidad y Capacitación) del proyecto conjunto entre
 
 El objetivo central de esta iniciativa es transformar los desafíos técnicos y las decisiones estratégicas de cada institución en un recurso de aprendizaje colectivo que permita reducir la brecha tecnológica mediante el intercambio de lecciones aprendidas.
 
-En esta entrega, destacamos la experiencia de la [**Universidad Católica del Maule (Chile)**](https://www.ucm.cl), quienes han completado con éxito un proceso de unificación y actualización tecnológica hacia DSpace 8.1, fortaleciendo así la visibilidad de su producción científica institucional.
+En esta entrega, destacamos la experiencia de la [**Universidad Católica del Maule (Chile)**](https://repositorioinstitucional.ucm.cl), quienes han completado con éxito un proceso de unificación y actualización tecnológica hacia DSpace 8.1, fortaleciendo así la visibilidad de su producción científica institucional.
 
 ## I. Información General y Responsables
 
-Para comenzar con el caso de éxito, la Universidad Católica del Maule (Chile) nos comparte los detalles de quiénes estuvieron al frente de este proceso. El liderazgo técnico y la ejecución de la migración estuvieron a cargo de **Javier Caro Aguilera** (jcaro@ucm.cl) y **Fabián Arellano Calderón** (farellanoc@ucm.cl). El repositorio institucional en producción ya se encuentra disponible para consulta pública en: [repositorioinstitucional.ucm.cl](https://repositorioinstitucional.ucm.cl)
+Para comenzar con el caso de éxito, la Universidad Católica del Maule (Chile) nos comparte los detalles de quiénes estuvieron al frente de este proceso. El liderazgo técnico y la ejecución de la migración estuvieron a cargo de [**Javier Caro Aguilera**](https://orcid.org/0009-0003-7616-3818) (jcaro@ucm.cl) y [**Fabián Arellano Calderón**](https://orcid.org/0009-0006-9938-8640) (farellanoc@ucm.cl). El repositorio institucional en producción ya se encuentra disponible para consulta pública en: [repositorioinstitucional.ucm.cl](https://repositorioinstitucional.ucm.cl)
 
 ## II. Perfil Tecnológico de la Migración
 
@@ -26,7 +26,7 @@ Respecto a la arquitectura de despliegue seleccionada para soportar esta nueva i
 
 > «Instalación manual, con servidor virtualizado QEMU Virtual CPU versión 2.5+ 4 CPU(s), 12GB RAM, 100GB SSD, Ubuntu 24.04.2 LTS».
 
-Un punto fundamental para el proyecto es saber si los recursos generados son de utilidad. Al preguntarles si utilizaron la documentación oficial traducida por el proyecto (en una escala del 1 al 5), la respuesta fue contundente:
+Un punto fundamental para el proyecto es saber si los recursos generados son de utilidad. Al preguntarles si utilizaron la [documentación oficial traducida](https://wiki.lyrasis.org/pages/viewpage.action?pageId=394527063) por el proyecto (en una escala del 1 al 5), la respuesta fue contundente:
 
 > «Escala 5: la documentación sirvió de guía durante todo el proceso de instalación y migración».
 
@@ -50,9 +50,11 @@ La colaboración con la comunidad es un pilar estratégico. Al preguntarles sobr
 
 > «Sí, se abrió ticket y también se participó en los ciclos de intervención, además compartimos con la comunidad de Discord. Nos pareció una grata experiencia poder contar con ayuda de un soporte especializado, como también el haber participado en el ciclo cerrado donde compartimos nuestra experiencia con diferentes universidades de la región».
 
+Puedes conocer más sobre el [soporte técnico disponible](https://soporte-dspace.lareferencia.info/es/home).
+
 Sobre la capacitación y su asistencia a las Open Hours, mencionaron:
 
-> «Se participó como oyente en la mayoría de las Open Hours dedicadas a la migración de Dspace y también contando nuestra experiencia en la Sexta Open Hour».
+> «Se participó como oyente en la mayoría de las Open Hours dedicadas a la migración de Dspace y también contando nuestra experiencia en la [Sexta Open Hour](https://www.youtube.com/@RepositoriosLA/videos)».
 
 ## V. Lecciones Aprendidas y Próximos Pasos
 
