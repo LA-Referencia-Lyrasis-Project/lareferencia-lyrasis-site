@@ -10,7 +10,7 @@ Como parte del Pilar III (Comunidad y Capacitación) del proyecto conjunto entre
 
 El objetivo central de esta iniciativa es transformar los desafíos técnicos y las decisiones estratégicas de cada institución en un recurso de aprendizaje colectivo que permita reducir la brecha tecnológica mediante el intercambio de lecciones aprendidas.
 
-En esta entrega, destacamos la experiencia de la **Universidad Católica del Maule (Chile)**, quienes han completado con éxito un proceso de unificación y actualización tecnológica hacia DSpace 8.1, fortaleciendo así la visibilidad de su producción científica institucional.
+En esta entrega, destacamos la experiencia de la [**Universidad Católica del Maule (Chile)**](https://www.ucm.cl), quienes han completado con éxito un proceso de unificación y actualización tecnológica hacia DSpace 8.1, fortaleciendo así la visibilidad de su producción científica institucional.
 
 ## I. Información General y Responsables
 
