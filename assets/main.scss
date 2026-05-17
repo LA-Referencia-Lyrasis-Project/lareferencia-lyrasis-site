@@ -187,20 +187,29 @@ img {
 .ly-lang-btn {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  padding: 0.5rem 0.75rem;
-  border: none;
+  gap: 6px;
+  padding: 0.4rem 0.75rem;
+  border: 1.5px solid var(--border-color);
   border-radius: 6px;
   background: transparent;
   cursor: pointer;
   color: var(--text-color);
   font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
   transition: var(--transition);
+  line-height: 1;
 }
 
 .ly-lang-btn:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
+}
+
+.ly-lang-active {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .ly-lang-caret {

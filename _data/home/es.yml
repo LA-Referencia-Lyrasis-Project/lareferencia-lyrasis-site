@@ -1,11 +1,14 @@
 ---
 sections:
   - type: hero
-    title: "Proyecto LA Referencia – Lyrasis"
-    subtitle: "Fortaleciendo la infraestructura de Ciencia Abierta en América Latina"
+    title_plain: "Fortaleciendo la Adopción de "
+    title_highlight: "DSpace en América Latina y España"
+    subtitle: "Proyecto LA Referencia – Lyrasis"
+    desc_plain: "El Proyecto LA Referencia – Lyrasis es una iniciativa conjunta diseñada para fortalecer la adopción, el uso y la actualización de DSpace en la comunidad de repositorios de América Latina y España."
+    desc_bold: "A través de un enfoque integral, el proyecto busca proporcionar soporte técnico, documentación actualizada, capacitación especializada y desarrollo de herramientas para mejorar la gestión de repositorios digitales en la región."
     cta:
       label: "Conocer más"
-      href: "#acerca-de"
+      href: "#objetivos"
 
   - type: about
     id: acerca-de
@@ -94,6 +97,9 @@ sections:
   - type: team
     id: equipo
     title: "Nuestro Equipo"
+    subtitle: "Conocé a las personas que hacen posible el Proyecto LA Referencia – Lyrasis, trabajando para fortalecer la adopción de DSpace en América Latina y España."
+    toggle_label: "Leer más"
+    toggle_label_alt: "Leer menos"
     members:
       - name: "Arturo Garduño Magaña"
         country: "MEX"
@@ -128,10 +134,10 @@ sections:
       - name: "Agustín Alfieri"
         country: "ARG"
         role: "Especialista en Soporte"
-        bio: "Especialista en soporte técnico y atención a instituciones. [Descripción pendiente]"
+        bio: "Estudiante de Ingeniería en Sistemas de Información con más de 4 años de experiencia administrando sistemas y plataformas de ciencia abierta. Responsable de la gestión de repositorios institucionales DSpace, interoperabilidad OAI-PMH e implementación de identificadores persistentes (PIDs). Actualmente forma parte del equipo de administración de sistemas en la Universidad Nacional de Rosario, Argentina."
         photo: "agustin-alfieri"
       - name: "Gerardo Flores"
         country: "MEX"
         role: "Especialista en QA"
-        bio: "Especialista en control de calidad y aseguramiento de calidad del software. [Descripción pendiente]"
+        bio: "Profesional con siete años de experiencia en repositorios institucionales basados en Dspace y la administración de entornos Linux, especializado en la administración y mantenimiento de repositorios de datos. Con conocimiento en despliegue de servicios, administración de infraestructura, integración de sistemas y automatización de procesos utilizando tecnologías de código abierto."
         photo: "gerardo-flores"

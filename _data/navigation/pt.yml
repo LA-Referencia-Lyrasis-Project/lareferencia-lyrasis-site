@@ -1,0 +1,41 @@
+main_nav:
+  - label: Sobre
+    href: "#acerca-de"
+    type: anchor
+  - label: Objetivos
+    href: "#objetivos"
+    type: anchor
+  - label: Pilares
+    href: "#pilares"
+    type: anchor
+  - label: Repositório
+    href: "#resultados"
+    type: anchor
+  - label: Participar
+    href: "#participar"
+    type: anchor
+  - label: Equipe
+    href: /pt/equipo/
+    type: subpage
+  - label: Blog
+    href: /blog/
+    type: subpage
+
+footer:
+  legal_text: "Salvo indicação em contrário, todos os materiais produzidos pela LA Referencia estão licenciados sob CC BY 4.0 Internacional"
+  social:
+    - label: Facebook
+      href: "https://www.facebook.com/LAReferenciaAA"
+      icon: facebook
+    - label: X
+      href: "https://twitter.com/LAReferenciaAA"
+      icon: x
+    - label: LinkedIn
+      href: "https://www.linkedin.com/in/la-referencia/"
+      icon: linkedin
+    - label: YouTube
+      href: "https://www.youtube.com/user/RepositoriosLA"
+      icon: youtube
+    - label: WhatsApp
+      href: "https://www.whatsapp.com/channel/0029VaEugWeCsU9VgZXXzP26"
+      icon: whatsapp

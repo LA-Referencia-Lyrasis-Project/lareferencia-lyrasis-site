@@ -1,9 +1,10 @@
 <section class="ly-section ly-section--tinted" id="pilares">
   <div class="wrapper">
-    <h2 class="ly-section-title">{{ site.data.home.es.sections[3].title }}</h2>
+    {% assign lang = page.language | default: "es" %}
+    <h2 class="ly-section-title">{{ site.data.home[lang].sections[3].title }}</h2>
     <div class="ly-section-divider"></div>
     <div class="ly-pillars__grid">
-      {% for item in site.data.home.es.sections[3].items %}
+      {% for item in site.data.home[lang].sections[3].items %}
         <div class="ly-pillar-card">
           <div class="ly-pillar-icon">
             {% case item.icon %}

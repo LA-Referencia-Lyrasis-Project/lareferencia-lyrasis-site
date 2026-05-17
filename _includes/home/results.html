@@ -1,19 +1,20 @@
 <section class="ly-section ly-section--white" id="resultados">
   <div class="wrapper">
+    {% assign lang = page.language | default: "es" %}
     <div class="ly-results__grid">
       <div class="ly-results-image">
         <img
           src="{{ '/assets/results-img.svg' | relative_url }}"
-          alt="{{ site.data.home.es.sections[4].image_alt }}"
+          alt="{{ site.data.home[lang].sections[4].image_alt }}"
           class="ly-results-img"
           loading="lazy"
         >
       </div>
       <div class="ly-results__content">
-        <h2 class="ly-section-title ly-results__title">{{ site.data.home.es.sections[4].title }}</h2>
+        <h2 class="ly-section-title ly-results__title">{{ site.data.home[lang].sections[4].title }}</h2>
         <div class="ly-section-divider"></div>
-        <a href="{{ site.data.home.es.sections[4].cta_href }}" class="ly-btn ly-btn-solid" target="_blank" rel="noopener">
-          {{ site.data.home.es.sections[4].cta_label }}
+        <a href="{{ site.data.home[lang].sections[4].cta_href }}" class="ly-btn ly-btn-solid" target="_blank" rel="noopener">
+          {{ site.data.home[lang].sections[4].cta_label }}
         </a>
       </div>
     </div>

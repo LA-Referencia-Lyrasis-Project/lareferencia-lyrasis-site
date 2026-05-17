@@ -1,10 +1,11 @@
 <section class="ly-section ly-section--primary-tint" id="participar">
   <div class="wrapper">
-    <h2 class="ly-section-title">{{ site.data.home.es.sections[5].title }}</h2>
+    {% assign lang = page.language | default: "es" %}
+    <h2 class="ly-section-title">{{ site.data.home[lang].sections[5].title }}</h2>
     <div class="ly-section-divider"></div>
-    <p class="ly-participate__lead">{{ site.data.home.es.sections[5].lead }}</p>
+    <p class="ly-participate__lead">{{ site.data.home[lang].sections[5].lead }}</p>
     <div class="ly-participate__grid">
-      {% for card in site.data.home.es.sections[5].cards %}
+      {% for card in site.data.home[lang].sections[5].cards %}
         <div class="ly-participate-card">
           <div class="ly-participate-icon">
             {% case card.icon %}

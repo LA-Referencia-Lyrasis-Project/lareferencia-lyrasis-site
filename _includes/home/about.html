@@ -2,9 +2,10 @@
   <div class="wrapper">
     <div class="ly-about__grid">
       <div class="ly-about__content">
-        <h2 class="ly-section-title">{{ site.data.home.es.sections[1].title }}</h2>
+        {% assign lang = page.language | default: "es" %}
+        <h2 class="ly-section-title">{{ site.data.home[lang].sections[1].title }}</h2>
         <div class="ly-section-divider"></div>
-        {% for para in site.data.home.es.sections[1].paragraphs %}
+        {% for para in site.data.home[lang].sections[1].paragraphs %}
           <p class="ly-about__text">{{ para }}</p>
         {% endfor %}
       </div>

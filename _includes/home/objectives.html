@@ -1,16 +1,17 @@
 <section class="ly-section ly-section--white" id="objetivos">
   <div class="wrapper">
-    <h2 class="ly-section-title">{{ site.data.home.es.sections[2].title }}</h2>
+    {% assign lang = page.language | default: "es" %}
+    <h2 class="ly-section-title">{{ site.data.home[lang].sections[2].title }}</h2>
     <div class="ly-section-divider"></div>
 
-    <div class="ly-carousel" id="objectives-carousel" aria-label="Objetivos del proyecto">
+    <div class="ly-carousel" id="objectives-carousel" aria-label="{{ site.data.home[lang].sections[2].title }}">
       <button class="ly-carousel-btn ly-carousel-btn--prev" aria-label="Anterior" onclick="carouselNav('objectives-carousel', -1)">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><polyline points="15 18 9 12 15 6"/></svg>
       </button>
 
       <div class="ly-carousel-track-wrap">
         <div class="ly-carousel-track" id="objectives-carousel-track">
-          {% assign objectives = site.data.home.es.sections[2].items %}
+          {% assign objectives = site.data.home[lang].sections[2].items %}
           {% for item in objectives %}
           <div class="ly-carousel-item ly-objective-item">
             <span class="ly-objective-icon" aria-hidden="true">

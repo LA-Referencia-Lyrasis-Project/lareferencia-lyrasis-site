@@ -1,11 +1,13 @@
 <section class="ly-section ly-section--gray" id="equipo">
   <div class="wrapper">
-    <h2 class="ly-section-title">{{ site.data.home.es.sections[6].title }}</h2>
+    {% assign lang = page.language | default: "es" %}
+    {% assign team_data = site.data.home[lang].sections[6] %}
+    <h2 class="ly-section-title">{{ team_data.title }}</h2>
     <div class="ly-section-divider"></div>
-    <p class="ly-team-subtitle">Conocé a las personas que hacen posible el Proyecto LA Referencia – Lyrasis, trabajando para fortalecer la adopción de DSpace en América Latina y España.</p>
+    <p class="ly-team-subtitle">{{ team_data.subtitle }}</p>
 
     <div class="ly-team__grid">
-      {% for member in site.data.home.es.sections[6].members %}
+      {% for member in team_data.members %}
       <div class="ly-team-card">
         <div class="ly-team-avatar">
           <div class="ly-team-avatar-fallback">
@@ -28,8 +30,8 @@
           var expanded = this.getAttribute('aria-expanded') === 'true';
           bio.classList.toggle('is-expanded', !expanded);
           this.setAttribute('aria-expanded', !expanded);
-          this.textContent = expanded ? 'Leer más ↓' : 'Leer menos ↑';
-        ">Leer más ↓</button>
+          this.textContent = expanded ? '{{ team_data.toggle_label }} ↓' : '{{ team_data.toggle_label_alt }} ↑';
+        ">{{ team_data.toggle_label }} ↓</button>
       </div>
       {% endfor %}
     </div>

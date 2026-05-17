@@ -1,9 +1,12 @@
+{% assign lang = page.language | default: "es" %}
+{% assign t = site.data.home[lang].sections[0] %}
+
 <section class="ly-hero" id="acerca-de">
   <div class="ly-hero-inner wrapper">
     <img src="{{ '/assets/dspace-long.png' | relative_url }}" alt="DSpace" class="ly-dspace-long">
-    <h1>Fortaleciendo la Adopción de <span class="ly-hero-highlight">DSpace en América Latina y España</span></h1>
-    <p class="ly-hero-subtitle"><strong>Proyecto LA Referencia – Lyrasis</strong></p>
-    <p class="ly-hero-desc">El Proyecto LA Referencia – Lyrasis es una iniciativa conjunta diseñada para fortalecer la adopción, el uso y la actualización de DSpace en la comunidad de repositorios de América Latina y España. <strong>A través de un enfoque integral, el proyecto busca proporcionar soporte técnico, documentación actualizada, capacitación especializada y desarrollo de herramientas para mejorar la gestión de repositorios digitales en la región.</strong></p>
-    <a href="#objetivos" class="ly-btn ly-btn-cta">Conocer más</a>
+    <h1>{{ t.title_plain }}<span class="ly-hero-highlight">{{ t.title_highlight }}</span></h1>
+    <p class="ly-hero-subtitle"><strong>{{ t.subtitle }}</strong></p>
+    <p class="ly-hero-desc">{{ t.desc_plain }} <strong>{{ t.desc_bold }}</strong></p>
+    <a href="{{ t.cta.href }}" class="ly-btn ly-btn-cta">{{ t.cta.label }}</a>
   </div>
 </section>

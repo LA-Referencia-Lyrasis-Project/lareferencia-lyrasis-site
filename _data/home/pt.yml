@@ -1,0 +1,143 @@
+---
+sections:
+  - type: hero
+    title_plain: "Fortalecendo a Adoção do "
+    title_highlight: "DSpace na América Latina e Espanha"
+    subtitle: "Projeto LA Referencia – Lyrasis"
+    desc_plain: "O Projeto LA Referencia – Lyrasis é uma iniciativa conjunta concebida para fortalecer a adoção, o uso e a atualização do DSpace na comunidade de repositórios da América Latina e Espanha."
+    desc_bold: "Por meio de uma abordagem abrangente, o projeto busca fornecer suporte técnico, documentação atualizada, treinamento especializado e desenvolvimento de ferramentas para melhorar a gestão de repositórios digitais na região."
+    cta:
+      label: "Saiba mais"
+      href: "#objetivos"
+
+  - type: about
+    id: acerca-de
+    title: "Sobre o Projeto"
+    paragraphs:
+      - "O Projeto LA Referencia – Lyrasis é uma iniciativa conjunta concebida para fortalecer a adoção, o uso e a atualização do DSpace na comunidade de repositórios da América Latina e Espanha."
+      - "Por meio de uma abordagem abrangente, o projeto busca fornecer suporte técnico, documentação atualizada, treinamento especializado e desenvolvimento de ferramentas para melhorar a gestão de repositórios digitais na região."
+    image_alt: "Logo DSpace"
+
+  - type: objectives
+    id: objetivos
+    title: "Objetivos do Projeto"
+    items:
+      - icon: database
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6"/></svg>'
+        text: "Facilitar a transição e atualização do DSpace (em sua versão mais recente) nas instituições participantes."
+      - icon: network
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v4M8.5 16.5L11 14M15.5 16.5L13 14"/></svg>'
+        text: "Melhorar a interoperabilidade e o acesso aberto nos repositórios."
+      - icon: headset
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>'
+        text: "Oferecer suporte técnico e assistência personalizada à comunidade de usuários."
+      - icon: document
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>'
+        text: "Gerar documentação em espanhol e português adaptada às necessidades locais."
+      - icon: training
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
+        text: "Implementar estratégias de treinamento para fortalecer o conhecimento técnico."
+      - icon: globe
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>'
+        text: "Fortalecer e engajar a comunidade global do DSpace, promovendo a colaboração ativa."
+      - icon: unlock
+        icon_svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>'
+        text: "Impulsionar a infraestrutura de informação científica e contribuir diretamente para o avanço da Ciência Aberta."
+
+  - type: pillars
+    id: pilares
+    title: "Nossos Quatro Pilares"
+    items:
+      - icon: docs
+        title: "Documentação"
+        href: "https://wiki.lyrasis.org/spaces/DSDOC9xes/pages/414712008/Introducci%C3%B3n"
+        desc: "Criação e atualização de guias em espanhol e português sobre instalação, configuração e boas práticas do DSpace."
+      - icon: support
+        title: "Suporte Técnico"
+        href: "https://soporte-dspace.lareferencia.info/es/home"
+        desc: "Implementação de um fluxo de trabalho para assistência a administradores de repositórios."
+      - icon: training
+        title: "Comunidade e Capacitação"
+        href: "https://youtube.com/playlist?list=PL2j1F3_xIyw6NB1WhjbmnW9VOCBDjZ8nV&si=MSOs08WWRTrqFEU_"
+        desc: "Desenvolvimento de sessões de formação, webinars e Open Hours para a comunidade."
+      - icon: dev
+        title: "Desenvolvimento"
+        href: "#"
+        desc: "Adaptação e integração de melhorias na plataforma DSpace de acordo com as necessidades da região."
+
+  - type: results
+    id: resultados
+    title: "Repositório"
+    cta_label: "Mais informações"
+    cta_href: "https://dspace-prd.lareferencia.info/home"
+    image_alt: "Ilustração dos resultados do projeto"
+
+  - type: participate
+    id: participar
+    title: "Como Participar?"
+    lead: "Se você faz parte de uma instituição que utiliza o DSpace ou tem interesse em fortalecer o ecossistema de repositórios digitais na América Latina e Espanha, convidamos você a se juntar a esta iniciativa. Entre em contato e faça parte da mudança!"
+    cards:
+      - icon: email
+        label: "Contato"
+        button: "Entre em contato"
+        href: "mailto:lareferencia@lareferencia.info?subject=Quero%20informa%C3%A7%C3%B5es%20sobre%20o%20Projeto%20LA%20Referencia%20-%20Lyrasis"
+      - icon: link
+        label: "Formulário"
+        button: "Mais informações"
+        href: "https://docs.google.com/forms/d/e/1FAIpQLSdxOi8P07uPoPdEYtzAFN3di_OMHrxKq-Krg-06Ici_flcwDg/viewform"
+      - icon: discord
+        label: "Comunidade do Discord"
+        button: "Entrar"
+        href: "https://discord.com/invite/GQzvHREzNy"
+      - icon: support
+        label: "Suporte técnico"
+        button: "Mais informações"
+        href: "https://soporte-dspace.lareferencia.info/es/home"
+
+  - type: team
+    id: equipo
+    title: "Nossa Equipe"
+    subtitle: "Conheça as pessoas que tornam possível o Projeto LA Referencia – Lyrasis, trabalhando para fortalecer a adoção do DSpace na América Latina e Espanha."
+    toggle_label: "Ler mais"
+    toggle_label_alt: "Ler menos"
+    members:
+      - name: "Arturo Garduño Magaña"
+        country: "MEX"
+        role: "Coordenador do Projeto"
+        bio: "Especialista em ciência aberta e gestão de metadados. Coordena o Projeto LA Referencia – Lyrasis desde fevereiro de 2025. Experiência em políticas públicas, infraestrutura de informação e avaliação científica. Foi Subdiretor no CONACYT México, Especialista no DataCite, e colabora com o Open Book Collective."
+        photo: "arturo-garduno"
+      - name: "Guillermo Esteban Murillo Goussen"
+        country: "CRI"
+        role: "Especialista Técnico — DSpace & OJS"
+        bio: "Informático com mais de 15 anos em plataformas de ciência aberta, especialmente DSpace e OJS. Pesquisador, professor e informático no Escritório de Conhecimento Aberto da UCR. Consultor técnico em repositórios institucionais. Faz parte da equipe da LA Referencia desde 2019."
+        photo: "guillermo-murillo"
+      - name: "Héctor Alberto Miguel Ulloque Rodríguez"
+        country: "COL"
+        role: "Especialista em Documentação"
+        bio: "Engenheiro de Sistemas, Mestrado em Governança de TI (U. del Norte, Colômbia). 15 anos no âmbito universitário, lidera a gestão tecnológica do repositório institucional da Universidad del Norte. Especialista em tradução e adaptação para o espanhol da documentação oficial do DSpace."
+        photo: "hector-ulloque"
+      - name: "Jesiel Viana"
+        country: "BRA"
+        role: "Especialista Técnico — Desenvolvimento de Software"
+        bio: "Mestre em Engenharia de Software, MBA em Gestão de TI. Mais de uma década em desenvolvimento e liderança técnica. Colabora com o IBICT no desenvolvimento de repositórios nacionais (RIDI, Deposita, BrCris, Oasisbr). Participa do Projeto LA Referencia – Lyrasis."
+        photo: "jesiel-viana"
+      - name: "Luciana Mara Silva"
+        country: "BRA"
+        role: "Especialista em Documentação"
+        bio: "Doutora em Ciência da Informação (UFSC). Mais de 15 anos em repositórios digitais. Bibliotecária na UDESC. Especialista em IA aplicada à pesquisa científica e gestão de dados de pesquisa."
+        photo: "luciana-silva"
+      - name: "Juan Sebastian Manitta"
+        country: "ARG"
+        role: "Desenvolvedor Frontend"
+        bio: "Desenvolvedor frontend especializado em modernização de plataformas web e interfaces dinâmicas. Experiência em JavaScript/TypeScript, React, Angular e Tailwind. Desenvolve componentes reutilizáveis e integra fluxos frontend-backend no Projeto LA Referencia – Lyrasis."
+        photo: "juan-manitta"
+      - name: "Agustín Alfieri"
+        country: "ARG"
+        role: "Especialista em Suporte"
+        bio: "Estudante de Engenharia de Sistemas de Informação com mais de 4 anos de experiência gerenciando sistemas e plataformas de ciência aberta. Responsável pela gestão de repositórios institucionais DSpace, interoperabilidade OAI-PMH e implementação de identificadores persistentes (PIDs). Atualmente faz parte da equipe de administração de sistemas da Universidade Nacional de Rosário, Argentina."
+        photo: "agustin-alfieri"
+      - name: "Gerardo Flores"
+        country: "MEX"
+        role: "Especialista em QA"
+        bio: "Profissional com sete anos de experiência em repositórios institucionais baseados em DSpace e administração de ambientes Linux, especializado na administração e manutenção de repositórios de dados. Com conhecimento em implantação de serviços, administração de infraestrutura, integração de sistemas e automação de processos utilizando tecnologias de código aberto."
+        photo: "gerardo-flores"
