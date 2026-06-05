@@ -1,5 +1,5 @@
-url: "https://la-referencia-lyrasis-project.github.io"
-baseurl: "/lareferencia-lyrasis-site"
+url: "https://dspace.lareferencia.info"
+baseurl: ""
 
 sass:
   quiet_deps: true
