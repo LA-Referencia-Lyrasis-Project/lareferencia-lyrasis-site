@@ -68,6 +68,7 @@ sections:
   - type: results
     id: resultados
     title: "Repository"
+    description: "Access LA Referencia's digital repository and explore scientific production from Latin America and Spain."
     cta_label: "More information"
     cta_href: "https://dspace-prd.lareferencia.info/home"
     image_alt: "Project results illustration"

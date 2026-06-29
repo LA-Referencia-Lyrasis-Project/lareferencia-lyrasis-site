@@ -68,6 +68,7 @@ sections:
   - type: results
     id: resultados
     title: "Repositório"
+    description: "Acesse o repositório digital da LA Referencia e explore a produção científica da América Latina e Espanha."
     cta_label: "Mais informações"
     cta_href: "https://dspace-prd.lareferencia.info/home"
     image_alt: "Ilustração dos resultados do projeto"
