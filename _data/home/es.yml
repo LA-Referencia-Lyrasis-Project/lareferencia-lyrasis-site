@@ -141,3 +141,19 @@ sections:
         role: "Especialista en QA"
         bio: "Profesional con siete años de experiencia en repositorios institucionales basados en Dspace y la administración de entornos Linux, especializado en la administración y mantenimiento de repositorios de datos. Con conocimiento en despliegue de servicios, administración de infraestructura, integración de sistemas y automatización de procesos utilizando tecnologías de código abierto."
         photo: "gerardo-flores"
+
+support:
+  eyebrow: "Soporte Técnico"
+  title: "¿Necesitás ayuda con DSpace?"
+  lead: "Contamos con un equipo especializado para asistir a administradores de repositorios y equipos técnicos en la implementación, configuración y mantenimiento de DSpace."
+  features:
+    - icon: help-circle
+      text: "Asistencia personalizada para resolver consultas técnicas y operativas."
+    - icon: docs
+      text: "Documentación actualizada en español y portugués con guías paso a paso."
+    - icon: code
+      text: "Resolución de problemas técnicos y acompañamiento en actualizaciones."
+    - icon: users
+      text: "Comunidad activa de práctica con espacios de intercambio y aprendizaje."
+  cta_label: "Ir al portal de soporte"
+  cta_href: "https://soporte-dspace.lareferencia.info/es/home"

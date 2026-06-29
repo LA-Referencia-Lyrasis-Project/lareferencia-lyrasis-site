@@ -23,6 +23,8 @@
   --color-red: {{ site.data.theme.palette.red | default: "#f1686a" }};
   --color-teal: {{ site.data.theme.palette.teal | default: "#04bab8" }};
   --color-purple: {{ site.data.theme.palette.purple | default: "#8354a2" }};
+  --color-orange: {{ site.data.theme.palette.orange | default: "#e2743b" }};
+  --surface-soft: #f5f8f7;
   --wrapper-width: 1320px;
   --wrapper-gutter: 24px;
   --transition: all 0.28s ease;
@@ -300,7 +302,10 @@ img {
 /* === Hero / Super-Hero === */
 .ly-hero {
   min-height: calc(100vh - 97px);
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(0, 127, 128, 0.85) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(248, 189, 79, 0.35) 0%, transparent 50%),
+    linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   display: flex;
   align-items: center;
   // padding: 6rem 0 5rem;
@@ -402,7 +407,7 @@ img {
 
 .ly-section--white     { background: #ffffff; }
 .ly-section--tinted    { background: #f0f4f8; }
-.ly-section--primary-tint { background: rgba(58, 81, 128, 0.04); }
+.ly-section--primary-tint { background: rgba(0, 127, 128, 0.04); }
 .ly-section--gray      { background: #f5f5f5; }
 
 .ly-section-title {
@@ -411,6 +416,29 @@ img {
   color: var(--primary-color);
   text-align: center;
   margin-bottom: 0.5rem;
+  letter-spacing: -0.03em;
+}
+
+/* === Eyebrow utility === */
+.ly-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-orange);
+  margin-bottom: 0.75rem;
+}
+
+.ly-eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 1.1em;
+  background: var(--color-orange);
+  border-radius: 2px;
 }
 
 .ly-section-title--sm {
@@ -1274,4 +1302,89 @@ img {
 
 .ly-go-top:hover {
   background: var(--primary-strong);
+}
+
+/* ============================================================
+   SUPPORT SECTION
+   ============================================================ */
+.ly-support {
+  padding: 5rem var(--wrapper-gutter);
+}
+
+.ly-support__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.ly-support__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.ly-support__lead {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.ly-support__cta {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.ly-support__features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.ly-support__feature {
+  background: var(--surface-soft);
+  border-radius: 16px;
+  padding: 1.5rem 1.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ly-support__feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(0, 127, 128, 0.1);
+  color: var(--primary-color);
+}
+
+.ly-support__feature-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.ly-support__feature-text {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .ly-support__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .ly-support__features {
+    grid-template-columns: 1fr;
+  }
+
+  .ly-support__cta {
+    align-self: stretch;
+    text-align: center;
+  }
 }

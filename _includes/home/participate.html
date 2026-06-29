@@ -6,6 +6,7 @@
     <p class="ly-participate__lead">{{ site.data.home[lang].sections[5].lead }}</p>
     <div class="ly-participate__grid">
       {% for card in site.data.home[lang].sections[5].cards %}
+        {% unless card.icon == 'support' %}
         <div class="ly-participate-card">
           <div class="ly-participate-icon">
             {% case card.icon %}
@@ -38,6 +39,7 @@
             <a href="{{ card.href }}" class="ly-btn ly-btn-solid ly-participate-cta">{{ card.button }}</a>
           {% endif %}
         </div>
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
