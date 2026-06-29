@@ -1,6 +1,7 @@
 palette:
-  primary: "#3a5180"
-  primary_strong: "#2d3f63"
+  primary: "#007f80"
+  primary_strong: "#005e62"
+  orange: "#e2743b"
   secondary: "#04799c"
   blue: "#04799c"
   text: "#3b3a3c"

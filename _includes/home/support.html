@@ -1,22 +1,14 @@
-{% assign lang = page.language | default: "es" %}
-{% assign t = site.data.home[lang].sections[0] %}
-{% assign support = site.data.home[lang].support %}
-
-<section class="ly-hero" id="acerca-de">
-  <div class="ly-hero-grid wrapper">
-    <!-- Columna izquierda: Hero -->
-    <div class="ly-hero__content">
-      <img src="{{ '/assets/dspace-long.png' | relative_url }}" alt="DSpace" class="ly-dspace-long">
-      <h1 class="ly-hero__title">{{ t.title_plain }}<span class="ly-hero-highlight">{{ t.title_highlight }}</span></h1>
-      <p class="ly-hero-subtitle"><strong>{{ t.subtitle }}</strong></p>
-      <p class="ly-hero-desc">{{ t.desc_plain }} <strong>{{ t.desc_bold }}</strong></p>
-    </div>
-    
-    <!-- Columna derecha: Soporte -->
-    <div class="ly-hero__support">
-      <span class="ly-eyebrow">{{ support.eyebrow }}</span>
-      <h2 class="ly-hero__support-title">{{ support.title }}</h2>
-      <p class="ly-support__lead">{{ support.lead }}</p>
+<section class="ly-section ly-section--white ly-support" id="soporte">
+  <div class="wrapper">
+    {% assign lang = page.language | default: "es" %}
+    {% assign support = site.data.home[lang].support %}
+    <div class="ly-support__grid">
+      <div class="ly-support__content">
+        <span class="ly-eyebrow">{{ support.eyebrow }}</span>
+        <h2 class="ly-section-title" style="text-align:left">{{ support.title }}</h2>
+        <p class="ly-support__lead">{{ support.lead }}</p>
+        <a href="{{ support.cta_href }}" class="ly-btn ly-btn-solid ly-support__cta" target="_blank" rel="noopener">{{ support.cta_label }}</a>
+      </div>
       <div class="ly-support__features">
         {% for feature in support.features %}
           <div class="ly-support__feature">
@@ -53,7 +45,6 @@
           </div>
         {% endfor %}
       </div>
-      <a href="{{ support.cta_href }}" class="ly-btn ly-btn-cta ly-support__cta" target="_blank" rel="noopener">{{ support.cta_label }}</a>
     </div>
   </div>
 </section>
