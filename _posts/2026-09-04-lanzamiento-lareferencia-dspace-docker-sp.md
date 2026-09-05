@@ -24,22 +24,22 @@ Proporciona una integración preconfigurada mediante **Docker** y **Docker Compo
 - **Frontend:** Interfaz de usuario basada en Angular con soporte nativo para Server-Side Rendering (SSR).
 - **Base de datos:** Motor PostgreSQL optimizado para el esquema de datos relacional de DSpace.
 - **Motor de búsqueda e indexación:** Instancia de Apache Solr configurada con los esquemas y núcleos (*cores*) requeridos para descubrimiento y analíticas.
-
+<br>
 ### 2. Flexibilidad: De pruebas a producción
 Permite levantar rápidamente entornos locales consistentes para realizar diagnósticos de datos, validar migraciones y ensayar procesos de actualización sin afectar servicios críticos. A su vez, provee una base robusta, segura y parametrizable, lista para adaptarse a despliegues formales en producción institucional.
-
+<br>
 ### 3. Mantenibilidad y alineación con estándares *upstream*
 La estructura del despliegue se adhiere a las directrices y estándares oficiales establecidos por la comunidad global de DSpace. Esta sincronización evita el desarrollo de personalizaciones locales aisladas que históricamente generan deuda técnica, garantizando compatibilidad directa con futuras actualizaciones, parches de seguridad y versiones oficiales del código fuente (*upstream*).
-
+<br>
 ## Enlaces de interés y participación comunitaria
 
 Este desarrollo es de código abierto y se nutre directamente de la retroalimentación y experiencias de las instituciones de la región. Invitamos a los administradores de sistemas, desarrolladores y especialistas de TI a clonar el repositorio, probarlo en sus servidores y compartir sus casos de uso o propuestas de mejora:
-
+<br>
 - 📦 **Repositorio en GitHub:** [lareferencia-dspace-docker](https://github.com/LA-Referencia-Lyrasis-Project/lareferencia-dspace-docker)
 - 🛠️ **Sitio de Soporte Técnico:** [soporte-dspace.lareferencia.info](https://soporte-dspace.lareferencia.info/es/home)
 - 💬 **Servidor de la Comunidad:** [Canal de Discord del Proyecto](https://discord.com/invite/GQzvHREzNy)
-
+<br>
 Cualquier duda técnica, reporte de incidencia o propuesta de contribución puede gestionarse a través de los [Issues en el repositorio de GitHub](https://github.com/LA-Referencia-Lyrasis-Project/lareferencia-dspace-docker/issues) o mediante los flujos de atención técnica de nuestro portal de soporte regional.
-
+<br>
 **Autor:** Arturo Garduño Magaña  
 **Coordinador del Proyecto LA Referencia – Lyrasis**
