@@ -16,6 +16,8 @@ Con el firme objetivo de acompañar a los equipos técnicos y simplificar las la
 
 Esta herramienta ha sido diseñada para responder tanto a necesidades diagnósticas y de evaluación local como a requerimientos rigurosos en entornos operativos institucionales:
 
+<br>
+
 ### 1. Arquitectura modular y desacoplada
 Proporciona una integración preconfigurada mediante **Docker** y **Docker Compose**, gestionando de manera eficiente e independiente los cuatro componentes nucleares de la plataforma:
 - **Backend:** API REST construida sobre Java y Spring Boot.
