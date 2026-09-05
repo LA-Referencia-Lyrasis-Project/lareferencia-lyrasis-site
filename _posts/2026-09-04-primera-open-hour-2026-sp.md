@@ -17,9 +17,11 @@ En esta primera sesión del año, presentada por Arturo Garduño Magaña y Guill
 A lo largo del encuentro se detallaron los cuatro pilares que transforman el esquema de acompañamiento regional durante 2026:
 
 ### 1. Nuevo Modelo de Soporte Abierto Regional
+
 Se elimina el esquema tradicional de convocatorias o ciclos cerrados de intervención. A partir de ahora, cualquier institución de la región que esté planificando o ejecutando instalaciones o migraciones hacia versiones modernas (DSpace 7, 8 y 9) puede solicitar asistencia técnica de manera abierta y simultánea.
 
 ### 2. Portal de Soporte y Flujos de Trabajo Especializados
+
 Presentamos la nueva puerta única de entrada, diseñada para orientar a las instituciones según su situación particular a través de cuatro rutas claras:
 
 - **Exploración:** Para instituciones evaluando requerimientos y viabilidad de actualización.
@@ -28,9 +30,11 @@ Presentamos la nueva puerta única de entrada, diseñada para orientar a las ins
 - **Instalaciones Operativas:** Para soporte y mantenimiento de instancias ya en producción.
 
 ### 3. Gestión Ágil y Estandarizada en GitHub
+
 Todo el flujo de atención técnica se centraliza a través de *Issues* en un repositorio público de GitHub. Este sistema incorpora plantillas estandarizadas para el reporte de incidencias, garantizando trazabilidad, tiempos de respuesta ágiles (SLA de atención inicial) y la creación progresiva de una base de conocimiento público reutilizable para toda la comunidad.
 
 ### 4. Documentación Oficial Bilingüe y Asistente Inteligente (NotebookLM)
+
 - **Manuales en español y portugués:** Se anunció la disponibilidad de traducciones completas de la documentación técnica oficial para DSpace 8 y 9.
 - **Asistente de consulta:** Introdujimos una herramienta inteligente entrenada con la documentación oficial del proyecto, permitiendo a los administradores resolver dudas técnicas y realizar consultas de forma rápida y contextualizada.
 
