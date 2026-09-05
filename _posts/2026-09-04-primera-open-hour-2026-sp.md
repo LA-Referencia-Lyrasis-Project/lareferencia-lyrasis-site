@@ -38,7 +38,7 @@ Todo el flujo de atención técnica se centraliza a través de *Issues* en un re
 
 Ya puedes consultar la grabación completa de la sesión, así como descargar la presentación utilizada durante el encuentro:
 
-- 🎥 **Grabación en Español:** [Ver en YouTube](https://youtu.be/-HoJ8D4mk_Y?si=OPX_KPakBo-bSkrp)
+- 🎥 **Grabación en Español:** [Ver en YouTube](https://youtu.be/P0XormcdRks?si=xjCiIO36Ix1NEovY)
 - 📑 **Presentación (Diapositivas):** [Descargar desde el Repositorio del Proyecto](https://dspace-prd.lareferencia.info/handle/123456789/23)
 
 ## Súmate a la Comunidad
