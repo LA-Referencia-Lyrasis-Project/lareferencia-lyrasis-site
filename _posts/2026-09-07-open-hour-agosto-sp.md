@@ -2,7 +2,7 @@
 layout: post
 title: "Optimización, seguridad y rendimiento en DSpace: Estrategias frente al tráfico masivo de bots e IA"
 subtitle: "Enfrentando los nuevos desafíos de infraestructura en repositorios institucionales"
-date: 2026-08-14 10:00:00 -0600
+date: 2026-09-07 10:00:00 -0600
 categories: [infraestructura, seguridad]
 tags: [dspace, rendimiento, seguridad, crawlers-ia, anubis-waf, angular-ssr, la-referencia, lyrasis, open-hours]
 author: "Arturo Garduño Magaña"
