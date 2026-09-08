@@ -58,5 +58,7 @@ El equipo del proyecto mantiene abiertos sus espacios de colaboración para ases
 - 💬 **Comunidad en Discord:** Conéctate con colegas y el equipo del proyecto en nuestro [Servidor de Discord](https://discord.com/invite/GQzvHREzNy).
 - 🌐 **Recursos y canales institucionales:** Consulta todas nuestras iniciativas en [Enlaces de LA Referencia](https://linktr.ee/LA_Referencia).
 
+<br>
+
 **Autor:** Arturo Garduño Magaña  
 **Coordinador del Proyecto LA Referencia – Lyrasis**
