@@ -26,23 +26,33 @@ A partir del análisis de incidentes de saturación y pruebas de estrés en serv
 ### 1. El impacto del tráfico agresivo en DSpace
 Agustín Alfieri expuso el caso de la Universidad Nacional de Rosario (UNR), donde ráfagas masivas y concurrentes de peticiones automatizadas provocaron la saturación de memoria RAM al 100%, derivando en lentitud extrema e interrupciones del servicio. En instancias sobre DSpace 7.6.x, las ineficiencias en el renderizado del frontend desacoplado (Angular con Server-Side Rendering - SSR) agravaron la situación al procesar y reconstruir páginas completas en cada solicitud sin contar con una capa intermedia de caché optimizada para este perfil de tráfico.
 
+<br>
+
 ### 2. Límites de las medidas paliativas
 Los métodos tradicionales de contención demostraron claras restricciones estructurales:
 - **Bloqueo manual de IPs:** Resultó ineficaz frente a redes dinámicas, residenciales y distribuidas globalmente.
 - **Bloqueo geográfico estricto:** Aunque se evaluó como medida de emergencia preservando únicamente servicios como Handle y Google Scholar, restringe el acceso universal y contradice el principio de acceso abierto que fundamenta a los repositorios institucionales.
 - **Escalamiento vertical de hardware:** Incrementar CPU y RAM de forma indefinida supone costos económicos insostenibles a mediano y largo plazo sin resolver el cuello de botella de fondo.
 
+<br>
+
 ### 3. Soluciones estructurales y actualización de versiones
 Se enfatizó la necesidad estratégica de migrar hacia versiones modernas de la plataforma (DSpace 8 y DSpace 9). Estas versiones integran optimizaciones sustanciales en el motor de renderizado de Angular SSR, mejoras en el pipeline de entrega de assets y esquemas de caché más eficientes diseñados para amortiguar impactos masivos sobre el backend y la base de datos.
 
+<br>
+
 ### 4. Filtrado activo y WAF con Anubis
 Gerardo Flores presentó en detalle la arquitectura e integración de **Anubis**, un cortafuegos para aplicaciones web (*Web Application Firewall* o WAF) de código abierto diseñado para identificar y mitigar tráfico abusivo. Mediante inspección de comportamiento, heurísticas avanzadas y desafíos automáticos basados en prueba de trabajo (*proof-of-work*), Anubis neutraliza bots no deseados en la capa perimetral antes de que sus peticiones consuman memoria y procesamiento en el servidor de aplicaciones de DSpace.
+
+<br>
 
 ### 5. Enfoque de defensa integral
 La sesión concluyó destacando que la resiliencia de un repositorio requiere un equilibrio coordinado:
 - Mantener la plataforma actualizada hacia las ramas con soporte activo.
 - Optimizar la configuración de Nginx, Node.js y Tomcat.
 - Implementar mecanismos perimetrales de filtrado y validación de tráfico sin sacrificar la indexación legítima ni el acceso global.
+
+<br>
 
 ## Grabación completa de la sesión
 
