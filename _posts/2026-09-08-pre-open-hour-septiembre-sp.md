@@ -21,7 +21,7 @@ Esta Open Hour está concebida como un espacio práctico de acompañamiento téc
   - **11:00 h:** Argentina, Brasil (Brasilia), Chile, Uruguay (UTC-3)
   - **16:00 h:** España (CEST / UTC+2)
 - 🌐 **Idioma e interpretación:** Sesión impartida en portugués con interpretación simultánea en vivo al español.
-- 🔗 **Inscripción gratuita:** [Registrarse en la sesión vía Zoom](https://zoom.us/meeting/register/pBVtCIUjTC2aYbBUhpQMRw)
+### - 🔗 **Inscripción gratuita:** [Registrarse en la sesión vía Zoom](https://zoom.us/meeting/register/pBVtCIUjTC2aYbBUhpQMRw)
 
 ## Especialistas Invitados
 
@@ -43,7 +43,7 @@ A lo largo de la sesión se revisarán aspectos técnicos clave para la correcta
 
 Con el fin de estructurar la sesión según las necesidades directas de sus repositorios y asegurar tiempo suficiente para atender casos concretos en vivo, habilitamos un documento colaborativo previo al encuentro:
 
-- 📝 [Acceder al Documento Pre-Webinar Q&A y Colector de Preguntas](https://docs.google.com/document/d/1FYDilo058CVDZu9y1HzkI9LDAZAfTYt1YOAlN27irO8/edit?usp=sharing)
+### - 📝 [Acceder al Documento Pre-Webinar Q&A y Colector de Preguntas](https://docs.google.com/document/d/1FYDilo058CVDZu9y1HzkI9LDAZAfTYt1YOAlN27irO8/edit?usp=sharing)
 
 Les invitamos a registrar sus dudas, casos particulares o consultas con anticipación para integrarlos en el desarrollo de la presentación.
 
