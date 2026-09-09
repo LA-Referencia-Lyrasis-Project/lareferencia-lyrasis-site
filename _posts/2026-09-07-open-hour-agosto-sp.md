@@ -59,6 +59,9 @@ La sesión concluyó destacando que la resiliencia de un repositorio requiere un
 La sesión completa, con los análisis técnicos y la ronda de preguntas y respuestas, se encuentra disponible para consulta libre:
 
 - 🎥 **Grabación en video:** [Ver sesión completa en YouTube](https://www.youtube.com/watch?v=DrrUjHySFxQ)
+- 📊 **Diapositivas:**
+  - https://dspace-prd.lareferencia.info/handle/123456789/26
+  - https://dspace-prd.lareferencia.info/handle/123456789/25
 
 ## Canales de consulta y acompañamiento técnico
 
