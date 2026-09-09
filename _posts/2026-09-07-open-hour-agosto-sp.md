@@ -60,8 +60,8 @@ La sesión completa, con los análisis técnicos y la ronda de preguntas y respu
 
 - 🎥 **Grabación en video:** [Ver sesión completa en YouTube](https://www.youtube.com/watch?v=DrrUjHySFxQ)
 - 📊 **Diapositivas:**
-  - https://dspace-prd.lareferencia.info/handle/123456789/26
-  - https://dspace-prd.lareferencia.info/handle/123456789/25
+  - [https://dspace-prd.lareferencia.info/handle/123456789/26](url)
+  - [https://dspace-prd.lareferencia.info/handle/123456789/25](url)
 
 ## Canales de consulta y acompañamiento técnico
 
