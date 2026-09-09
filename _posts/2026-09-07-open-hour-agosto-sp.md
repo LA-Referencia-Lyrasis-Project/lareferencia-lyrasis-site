@@ -60,8 +60,8 @@ La sesión completa, con los análisis técnicos y la ronda de preguntas y respu
 
 - 🎥 **Grabación en video:** [Ver sesión completa en YouTube](https://www.youtube.com/watch?v=DrrUjHySFxQ)
 - 📊 **Diapositivas:**
-  - [https://dspace-prd.lareferencia.info/handle/123456789/26](url)
-  - [https://dspace-prd.lareferencia.info/handle/123456789/25](url)
+  - [Experiencia en la Universidad Nacional de Rosario, Argentina: Cómo la actualización del DSpace mejoró la saturación de RAM causada por bots de IA](https://dspace-prd.lareferencia.info/handle/123456789/26)
+  - [Caso de uso: Repositorio CIMMYT](https://dspace-prd.lareferencia.info/handle/123456789/25)
 
 ## Canales de consulta y acompañamiento técnico
 
