@@ -8,7 +8,7 @@ main_nav:
   - label: Pillars
     href: "#pilares"
     type: anchor
-  - label: Repository
+  - label: Project results
     href: "#resultados"
     type: anchor
   - label: Participate
@@ -22,7 +22,7 @@ main_nav:
     type: subpage
 
 footer:
-  legal_text: "Unless otherwise stated, all materials produced by LA Referencia are licensed under CC BY 4.0 International"
+  legal_text: "This site and its resources are a development of the project funded by Lyrasis for the strengthening and adoption of DSpace in Latin America and Spain. Unless otherwise stated, the content produced is available under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license."
   social:
     - label: Facebook
       href: "https://www.facebook.com/LAReferenciaAA"

@@ -67,32 +67,43 @@ sections:
 
   - type: results
     id: resultados
-    title: "Repository"
-    description: "Access LA Referencia's digital repository and explore scientific production from Latin America and Spain."
-    cta_label: "More information"
-    cta_href: "https://dspace-prd.lareferencia.info/home"
-    image_alt: "Project results illustration"
+    kicker: "Results & progress • 2026"
+    title: "Project results so far"
+    description: "Here you can review the project's progress and results to date: technical reports, migration documentation, best-practice guides, and training materials produced for the community. All the evidence and outputs of the work are deposited in open access inside the LA Referencia DSpace Model Repository."
+    cards:
+      - icon: docs
+        title: "Reports and documentation"
+        desc: "Progress reports, technical guides for DSpace, and regional work syntheses."
+      - icon: tools
+        title: "Technical resources"
+        desc: "Migration documentation translated into Spanish and Portuguese, technical glossary, and technical support materials."
+      - icon: community
+        title: "Community materials"
+        desc: "Infographics, open session recordings, and training resources."
+    cta_label: "Explore results in the repository →"
+    cta_href: "https://dspace-prd.lareferencia.info/handle/123456789/1"
 
   - type: participate
     id: participar
-    title: "How to Participate?"
+    title: "How to participate?"
     lead: "If you are part of an institution that uses DSpace or are interested in strengthening the digital repository ecosystem in Latin America and Spain, we invite you to join this initiative. Contact us and be part of the change!"
-    cards:
-      - icon: email
-        label: "Contact"
-        button: "Get in touch"
-        href: "mailto:lareferencia@lareferencia.info?subject=I%20want%20information%20about%20the%20LA%20Referencia%20-%20Lyrasis%20Project"
-      - icon: link
-        label: "Form"
-        button: "More information"
+    secondary_label: "Other ways to join"
+    primary:
+      icon: email
+      label: "Get in touch"
+      href: "mailto:lareferencia@lareferencia.info?subject=I%20want%20information%20about%20the%20LA%20Referencia%20-%20Lyrasis%20Project"
+    channels:
+      - icon: form
+        label: "Joining form"
+        hint: "Formal request to join the project"
         href: "https://docs.google.com/forms/d/e/1FAIpQLSdxOi8P07uPoPdEYtzAFN3di_OMHrxKq-Krg-06Ici_flcwDg/viewform"
       - icon: discord
-        label: "Discord Community"
-        button: "Join"
+        label: "Discord community"
+        hint: "Open conversations with the community"
         href: "https://discord.com/invite/GQzvHREzNy"
       - icon: support
         label: "Technical support"
-        button: "More information"
+        hint: "Help with DSpace installation"
         href: "https://soporte-dspace.lareferencia.info/es/home"
 
   - type: team

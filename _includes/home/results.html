@@ -1,23 +1,50 @@
+{% assign lang = page.language | default: "es" %}
+{% assign results = site.data.home[lang].sections[4] %}
+
 <section class="ly-section ly-section--white" id="resultados">
   <div class="wrapper">
-    {% assign lang = page.language | default: "es" %}
-    <div class="ly-results__grid">
-      <div class="ly-results-image">
-        <img
-          src="{{ '/assets/results-img.svg' | relative_url }}"
-          alt="{{ site.data.home[lang].sections[4].image_alt }}"
-          class="ly-results-img"
-          loading="lazy"
-        >
-      </div>
-      <div class="ly-results__content">
-        <h2 class="ly-section-title ly-results__title">{{ site.data.home[lang].sections[4].title }}</h2>
-        <div class="ly-section-divider"></div>
-        <p class="ly-results__description">{{ site.data.home[lang].sections[4].description }}</p>
-        <a href="{{ site.data.home[lang].sections[4].cta_href }}" class="ly-btn ly-btn-solid" target="_blank" rel="noopener">
-          {{ site.data.home[lang].sections[4].cta_label }}
-        </a>
-      </div>
+    <p class="ly-results__kicker">{{ results.kicker }}</p>
+    <h2 class="ly-section-title ly-results__title">{{ results.title }}</h2>
+    <div class="ly-section-divider"></div>
+
+    <p class="ly-results__lead">{{ results.description }}</p>
+
+    <div class="ly-results__cards">
+      {% for card in results.cards %}
+        <article class="ly-result-card">
+          <div class="ly-result-card__icon" aria-hidden="true">
+            {% case card.icon %}
+              {% when 'docs' %}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                  <polyline points="10 9 9 9 8 9"/>
+                </svg>
+              {% when 'tools' %}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+              {% when 'community' %}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+            {% endcase %}
+          </div>
+          <h3 class="ly-result-card__title">{{ card.title }}</h3>
+          <p class="ly-result-card__desc">{{ card.desc }}</p>
+        </article>
+      {% endfor %}
+    </div>
+
+    <div class="ly-results__cta">
+      <a href="{{ results.cta_href }}" class="ly-btn ly-btn-solid ly-btn-pill" target="_blank" rel="noopener">
+        {{ results.cta_label }}
+      </a>
     </div>
   </div>
 </section>

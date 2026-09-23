@@ -67,32 +67,43 @@ sections:
 
   - type: results
     id: resultados
-    title: "Repositório"
-    description: "Acesse o repositório digital da LA Referencia e explore a produção científica da América Latina e Espanha."
-    cta_label: "Mais informações"
-    cta_href: "https://dspace-prd.lareferencia.info/home"
-    image_alt: "Ilustração dos resultados do projeto"
+    kicker: "Resultados e avanços • 2026"
+    title: "Resultados do projeto até o momento"
+    description: "Neste espaço você pode acompanhar os avanços e resultados do projeto até o momento: relatórios técnicos, documentação de migrações, guias de boas práticas e materiais de formação produzidos para a comunidade. Todo o acervo e as evidências do trabalho realizado estão depositados em acesso aberto no Repositório Modelo DSpace da LA Referencia."
+    cards:
+      - icon: docs
+        title: "Relatórios e documentação"
+        desc: "Relatórios de progresso, guias técnicos para DSpace e sínteses do trabalho regional."
+      - icon: tools
+        title: "Recursos técnicos"
+        desc: "Documentação de migração traduzida para Espanhol e Português, glossário técnico e materiais de suporte técnico."
+      - icon: community
+        title: "Materiais comunitários"
+        desc: "Infografias, gravações de sessões abertas e recursos de capacitação."
+    cta_label: "Explorar resultados no repositório →"
+    cta_href: "https://dspace-prd.lareferencia.info/handle/123456789/1"
 
   - type: participate
     id: participar
-    title: "Como Participar?"
+    title: "Como participar?"
     lead: "Se você faz parte de uma instituição que utiliza o DSpace ou tem interesse em fortalecer o ecossistema de repositórios digitais na América Latina e Espanha, convidamos você a se juntar a esta iniciativa. Entre em contato e faça parte da mudança!"
-    cards:
-      - icon: email
-        label: "Contato"
-        button: "Entre em contato"
-        href: "mailto:lareferencia@lareferencia.info?subject=Quero%20informa%C3%A7%C3%B5es%20sobre%20o%20Projeto%20LA%20Referencia%20-%20Lyrasis"
-      - icon: link
-        label: "Formulário"
-        button: "Mais informações"
+    secondary_label: "Outras formas de participar"
+    primary:
+      icon: email
+      label: "Fale com a equipe"
+      href: "mailto:lareferencia@lareferencia.info?subject=Quero%20informa%C3%A7%C3%B5es%20sobre%20o%20Projeto%20LA%20Referencia%20-%20Lyrasis"
+    channels:
+      - icon: form
+        label: "Formulário de adesão"
+        hint: "Solicitação formal para entrar no projeto"
         href: "https://docs.google.com/forms/d/e/1FAIpQLSdxOi8P07uPoPdEYtzAFN3di_OMHrxKq-Krg-06Ici_flcwDg/viewform"
       - icon: discord
-        label: "Comunidade do Discord"
-        button: "Entrar"
+        label: "Comunidade Discord"
+        hint: "Conversas abertas com a comunidade"
         href: "https://discord.com/invite/GQzvHREzNy"
       - icon: support
         label: "Suporte técnico"
-        button: "Mais informações"
+        hint: "Auxílio com a instalação do DSpace"
         href: "https://soporte-dspace.lareferencia.info/es/home"
 
   - type: team
