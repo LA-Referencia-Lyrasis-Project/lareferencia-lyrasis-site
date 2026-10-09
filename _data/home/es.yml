@@ -81,7 +81,7 @@ sections:
         title: "Materiales comunitarios"
         desc: "Infografías, grabaciones de sesiones abiertas y recursos de capacitación."
     cta_label: "Explorar resultados en el repositorio →"
-    cta_href: "https://dspace-prd.lareferencia.info/handle/123456789/1"
+    cta_href: "https://dspace-prd.lareferencia.info/handle/123456789/20"
 
   - type: participate
     id: participar
